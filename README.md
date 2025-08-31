@@ -100,7 +100,7 @@ python src/ingest.py
 ```
 
 Este comando irá:
-- Carregar o arquivo `gpt5.pdf`
+- Carregar o arquivo `investimentos.pdf`
 - Dividir em chunks de 1000 caracteres (overlap 150)
 - Gerar embeddings usando Gemini
 - Armazenar no banco vetorial PostgreSQL
