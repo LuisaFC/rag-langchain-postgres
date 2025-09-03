@@ -27,7 +27,7 @@ Sistema de RAG (Retrieval-Augmented Generation) que permite fazer ingestão de d
 │   ├── ingest.py        # Script de ingestão do PDF
 │   ├── search.py        # Módulo de busca semântica
 │   └── chat.py          # Interface CLI interativa
-├── investimentos.pdf            # Documento PDF para ingestão
+├── document.pdf            # Documento PDF para ingestão
 └── README.md           # Este arquivo
 ```
 
@@ -100,7 +100,7 @@ python src/ingest.py
 ```
 
 Este comando irá:
-- Carregar o arquivo `investimentos.pdf`
+- Carregar o arquivo `document.pdf`
 - Dividir em chunks de 1000 caracteres (overlap 150)
 - Gerar embeddings usando Gemini
 - Armazenar no banco vetorial PostgreSQL

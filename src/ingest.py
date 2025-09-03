@@ -17,7 +17,7 @@ for k in ("GOOGLE_API_KEY", "PGVECTOR_URL","PGVECTOR_COLLECTION"):
 
 
 current_dir = Path(__file__).parent
-pdf_path = current_dir / "../investimentos.pdf"
+pdf_path = current_dir / "../document.pdf"
 
 docs = PyPDFLoader(str(pdf_path)).load()
 
